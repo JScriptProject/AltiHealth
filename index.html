@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AltiHealth</title>
+    
+    <!-- custom CSS file -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- swipper -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+     <!-- remix icon -->
+     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- header -->
+     <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">
+                <img src="assets/media/logo.png" alt="AltiHealth">
+            </a>
+            <div class="menu d-hidden" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">About Us</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Experties</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Specialist</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="list-toggle-btn screen-lg-hidden place-item-center">
+                <button class="btn menu-toggle-btn" id="menu-toggler-btn">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon d-hidden"></i>
+                </button>
+            </div>
+        </nav>
+     </header>
+     <section class="banner">
+                <!-- Slider main container -->
+        <div class="swiper swiper-banner">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <div class="swiper-tagline-wrapper">
+                    <h4 class="swiper-tagline">Compassionate Care</h4>
+                </div>
+                <img src="assets/media/banner1.jpg" alt="banner image"></div>
+            <div class="swiper-slide">
+                <div class="swiper-tagline-wrapper">
+                    <h4 class="swiper-tagline">Your Health, Our Priority</h4>
+                </div>
+                <img src="assets/media/banner2.jpg" alt="banner image"></div>
+            <div class="swiper-slide">
+                <div class="swiper-tagline-wrapper">
+                    <h4 class="swiper-tagline">Precision in Treatment</h4>
+                </div>
+                <img src="assets/media/banner3.jpg" alt="banner image">
+            </div>
+        </div>
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev swiper-controls"></div>
+        <div class="swiper-button-next swiper-controls"></div>
+        </div>
+     </section>
+
+     <section class="section appointment" id="appointment">
+         <div class="container">
+            <div class="oppo-wrapper d-grid">
+                <div class="opp-title">
+                    <h4>Fill the details to book an Appointment</h4>
+                </div>
+                <div class="opp-input-1">
+                   <input type="text" placeholder="Full Name">
+                   <input type="number" placeholder="Phone Number">
+                </div>
+                <div class="opp-input-2">
+                    <input type="email" placeholder="Email Address">
+                   <input type="date" id="appointmentDate" name="appointmentDate">
+                </div>
+                <div class="opp-input-3">
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                </div>
+                <button class="btn oppo-submit-btn">Make Appointment</button>
+            </div>
+         </div>   
+     </section>
+
+     <section class="feature-cards section" id="feature-cards">
+        <div class="container">
+            <div class="cards-wrapper d-grid">
+                <div class="card">
+                    <div class="card-image">
+                        <i class="ri-empathize-line"></i>
+                        <p>Comprehensive <strong>Medical Care</strong></p>
+                    </div>
+                    <div class="card-info"><p>Learn More</p></div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <i class="ri-medicine-bottle-line"></i>
+                        <p>Integrated <strong>Patient Services</strong></p>
+                    </div>
+                    <div class="card-info"><p>Learn More</p></div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <i class="ri-hospital-line"></i>
+                        <p>Advanced <strong>Diagnostic Equipment</strong></p>
+                    </div>
+                    <div class="card-info"><p>Learn More</p></div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <i class="ri-nurse-fill"></i>
+                        <p>Specialized <strong>Healthcare Professionals</strong></p>
+                    </div>
+                    <div class="card-info"><p>Learn More</p></div>
+                </div>
+                
+            </div>
+        </div>
+     </section>
+
+     <section class="section about">
+        <div class="container">
+            <div class="about-wrap d-grid">
+                <div class="left-wrap">
+                    <div class="section-title">
+                       <h2>Who we are</h2>
+                    </div>
+                    <div class="section-desc">
+                       <p>Welcome to AltiHealth, where compassionate care meets advanced medical expertise. Our mission is to provide exceptional healthcare that prioritizes your well-being, combining the latest medical advancements with a compassionate approach to patient care. At AltiHealth, we are dedicated to offering high-quality services designed to meet the diverse healthcare needs of our community. <br><br>Equipped with state-of-the-art technology and staffed by a team of highly trained healthcare professionals, we ensure that every patient receives the best possible care. Our doctors, nurses, and specialists work collaboratively to offer personalized treatment plans tailored to each individual's needs.
+                       </p>
+                       <div class="section-img">
+                           <img src="assets/media/about-altihealth.jpg" alt="about">
+                           <div class="section-img-tags">
+                            <span>HealthCare</span>
+                            <span>Treatment</span>
+                            <span>Wellness</span>
+                           </div>
+                       </div>
+                    </div>
+       
+                   </div>
+                   <div class="right-wrap">
+                       <div class="section-title">
+                           <h2>Some Statistics</h2>
+                       </div>
+                       <div class="section-desc-btn d-grid">
+                           <div class="section-btn">
+                               <h5>Satisfied Clients</h5>
+                               <button class="btn section-btn-btn">7845</button>
+                           </div>
+                           <div class="section-btn">
+                               <h5>Succesful Surgeries</h5>
+                               <button class="btn section-btn-btn">1329</button>
+                           </div>
+                       </div>
+                   </div>
+                    <div class="section-img show-lg">
+                        <img src="assets/media/about-altihealth.jpg" alt="about">
+                        <div class="section-img-tags">
+                         <span>HealthCare</span>
+                         <span>Treatment</span>
+                         <span>Wellness</span>
+                        </div>
+                    </div>
+            </div>
+        </div>
+     </section>
+     <section class="section our-doctors" id="our-doctors">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Doctors</h2>
+            </div>
+            <div class="section-main">
+
+                <!-- swiper to show doctors -->
+                <div class="swiper swiper-dr">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+
+                        <!-- Slides 1 -->
+                        <div class="swiper-slide swiper-slide-block" data-name="alex">
+                            <div class="swiper-tag-wrapper">
+                                <h4 class="swiper-tag">Dr. Alex Carter</h4>
+                            </div>
+                            <img src="assets/media/Dr. Alex Carter.jpg" alt="Dr. Alex Carter"></div>
+
+                            <!-- Slides 2-->
+                        <div class="swiper-slide swiper-slide-block" data-name="emma">
+                            <div class="swiper-tag-wrapper">
+                                <h4 class="swiper-tag">Dr. Emma Richards</h4>
+                            </div>
+                            <img src="assets/media/Dr. Emma Richards.jpg" alt="Dr. Emma Richards"></div>
+
+                            <!-- Slides 3-->
+                        <div class="swiper-slide swiper-slide-block" data-name="samuel">
+                            <div class="swiper-tag-wrapper">
+                                <h4 class="swiper-tag">Dr. Samuel Hayes</h4>
+                            </div>
+                            <img src="assets/media/Dr. Samuel Hayes.jpg" alt="Dr. Samuel Hayes"></div>
+
+                            <!-- Slides 4-->
+                        <div class="swiper-slide swiper-slide-block" data-name="olivia">
+                            <div class="swiper-tag-wrapper">
+                                <h4 class="swiper-tag">Dr. Olivia Bennett</h4>
+                            </div>
+                            <img src="assets/media/Dr. Olivia Bennett.jpg" alt="Dr. Olivia Bennett"></div>
+
+                            <!-- Slides 5-->
+                        <div class="swiper-slide swiper-slide-block" data-name="liam">
+                            <div class="swiper-tag-wrapper">
+                                <h4 class="swiper-tag">Dr. Liam Foster</h4>
+                            </div>
+                            <img src="assets/media/Dr. Liam Foster.jpg" alt="Dr. Liam Foster"></div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev swiper-controls-dr"></div>
+                    <div class="swiper-button-next swiper-controls-dr"></div>
+                    </div>
+            </div>
+        </div>
+     </section>
+     <section class="section news-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Latest News</h2>
+            </div>
+            <div class="section-main news-card-wrapper d-grid">
+
+                <!-- news card 1 -->
+                <div class="news-card">
+                    <div class="news-card-img"><img src="assets/media/news-img1.jpg" alt="covid"></div>
+                    <div class="news-card-info">
+                        <span><i class="ri-time-line"></i> Apr 22, 2022</span>
+                        <h3>Will 2023 be the year of covid free world for everyone?</h3>
+                        <p>As per the suggestions it was mentioned about covid free world.</p>
+                        <a href="#" class="btn news-btn">Know more</a>
+                    </div>
+                </div>
+
+                <!-- news card 2 -->
+                <div class="news-card">
+                    <div class="news-card-img"><img src="assets/media/weight-gain.jpg" alt="covid"></div>
+                    <div class="news-card-info">
+                        <span>March 15, 2022</span>
+                        <h3>Which factors lead to weight gain in most people today?</h3>
+                        <p>Staying home during the pandemic caused concern for weight gain.</p>
+                        <a href="#" class="btn news-btn">Know more</a>
+                    </div>
+                </div>
+
+                <!-- news card 3 -->
+                <div class="news-card">
+                    <div class="news-card-img"><img src="assets/media/diet.jpg" alt="covid"></div>
+                    <div class="news-card-info">
+                        <span>Apr 22, 2022</span>
+                        <h3>Which healthy diets help improve skin glow as experts say?</h3>
+                        <p>What we eat impacts our look, experts shared a healthy diet list.</p>
+                        <a href="#" class="btn news-btn">Know more</a>
+                    </div>
+                </div>
+
+                <!-- news card 4 -->
+                <div class="news-card">
+                    <div class="news-card-img"><img src="assets/media/smartwatch.jpg" alt="covid"></div>
+                    <div class="news-card-info">
+                        <span>Apr 22, 2022</span>
+                        <h3>Could a smartwatch become your partner in better health?</h3>
+                        <p>Using a smartwatch helps track health metrics like calories burned.</p>
+                        <a href="#" class="btn news-btn">Know more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     <footer class="section">
+        <div class="container">
+            <div class="footer-card-wrapper d-grid">
+                <div class="footer-card">
+                    <div class="footer-card-title">
+                        <h3>about us</h3>
+                    </div>
+                    <div class="footer-card-info">
+                        <img src="assets/media/logo.png" alt="footer logo" class="footer-logo">
+                        <p class="footer-about">At AltiHealth, we are dedicated to offering high-quality services designed to meet the diverse healthcare needs of our community.</p>
+                    </div>
+                </div>
+
+                <div class="footer-card">
+                    <div class="footer-card-title">
+                        <h3>latest post</h3>
+                    </div>
+                    <div class="footer-card-info">
+                        <p class="footer-post">Will 2023 be the year of covid free world?</p>
+                        <span class="post-break"></span>
+                        <p class="footer-post">What are the healthy diets for skin glow - expert.</p>
+                        <span class="post-break"></span>
+                        <p class="footer-post">Can smartwatch be your friend for good health?</p>
+                        <span class="post-break"></span>
+                    </div>
+                </div>
+
+                <div class="footer-card">
+                    <div class="footer-card-title">
+                        <h3>contact info</h3>
+                    </div>
+                    <div class="footer-card-info">
+                        <p class="contact-info-p">Its very easy to contact AltiHealth with below provided details</p>
+                        <div class="contact-section">
+                            <span><i class="ri-home-7-line"></i> 123 Maple Street
+                            Springfield, IL 62701
+                            USA</span>
+                            <span><i class="ri-phone-line"></i> (123) 456-7890</span>
+                            <span><i class="ri-mail-line"></i> info@altihealth.com</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-card">
+                    <div class="footer-card-title">
+                        <h3>quick connect</h3>
+                    </div>
+                    <div class="footer-card-info">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                        <textarea name="message" id="message" placeholder="Message"></textarea>
+                        <a href="#" class="btn btn-form-send">Send</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </footer>
+     
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="assets/main.js"></script>
+
+</body>
+</html>
